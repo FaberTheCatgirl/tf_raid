@@ -86,7 +86,7 @@
 	}
 	"mvm_mannhattan_d"
 	{
-		"viewed"		"13"
+		"viewed"		"15"
 	}
 	"raid_badtower"
 	{
@@ -94,6 +94,6 @@
 	}
 	"raid_badwater"
 	{
-		"viewed"		"9"
+		"viewed"		"29"
 	}
 }

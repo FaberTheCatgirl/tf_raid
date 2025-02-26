@@ -195,24 +195,28 @@ Population
 				TFBot
 				{
 					Class Soldier
+					WeaponRestrictions MeleeOnly
 					Skill Easy
 				}
 
 				TFBot
 				{
 					Class Pyro
+					WeaponRestrictions MeleeOnly
 					Skill Easy
 				}
 
 				TFBot
 				{
 					Class Demoman
+					WeaponRestrictions MeleeOnly
 					Skill Easy
 				}
 
 				TFBot
 				{
 					Class HeavyWeapons
+					WeaponRestrictions MeleeOnly
 					Skill Easy
 				}
 			}
