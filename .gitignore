@@ -6,6 +6,11 @@
 *.prt
 *.log
 *.vmx
+tf2_playerstats.dmx
+ServerConfig.vdf
+GameState.txt
+cfg/local_loadout.txtcfg/settings.scr
+media/viewed.res
 ep1_gamestats.dat
 stats.txt
 voice_ban.dt
