@@ -340,3 +340,17 @@
 	"volume"		"0.35"
 	"wave"		"#*music/mvm_lost_wave.wav"
 }
+"Raid.MobSpawn"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.48"
+	"wave"		"#*music/mvm_start_wave.wav"
+}
+"Raid.SquadSpawn"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.35"
+	"wave"		"#*music/mvm_start_mid_wave.wav"
+}
