@@ -1009,6 +1009,11 @@
 		criteria ConceptPlayerTaunt IsScout IsHalloweenTaunt
 		response ScoutTauntHalloween
 	}
+	rule ScoutTauntPlayerHWGLunchbox
+	{
+		criteria ConceptPlayerTaunt IsScout WeaponIsSandvich
+		response ScoutTauntHalloween
+	}
 	
 	Response PlayerExpressionIdleScout
 	{
@@ -1845,7 +1850,11 @@
 		criteria ConceptTauntLaugh IsEngineer
 		response EngineerTauntLaugh
 	}
-	
+	rule EngineerTauntPlayerHWGLunchbox
+	{
+		criteria ConceptPlayerTaunt IsEngineer WeaponIsLunchbox
+		response EngineerTauntLaugh
+	}
 	response "PyroTauntLaugh"
 	{
 		scene "scenes/player/pyro/low/taunt_laugh.vcd"
