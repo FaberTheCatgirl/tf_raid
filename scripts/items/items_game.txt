@@ -18719,11 +18719,6 @@
 					"attribute_class"	"kill_eater_score_type_2"
 					"value" 	"0"									
 				}
-				"Construction rate decreased"
-				{
-					"attribute_class"	"mult_construction_value"
-					"value"		"-1"
-				}
 			}
 		}
 
