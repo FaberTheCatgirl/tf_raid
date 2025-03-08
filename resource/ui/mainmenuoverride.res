@@ -171,7 +171,7 @@
 		"wide"			"o1.6"
 		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
@@ -224,6 +224,37 @@
 		{
 			"image"		"../console/background_xmas2023_widescreen"
 		}
+	}
+	
+	"Background_video"
+	{
+		"ControlName"	"CRDVideoPanel"
+		"fieldName"		"Background_video"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"-199"
+		"wide"			"o1.6"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
+		"video"			"media/mainmenu.webm"
+		"loop"			"1"
+		"proportionaltoparent"	"1"
+
+		if_wider
+		{
+			"wide"			"f0"
+			"tall"			"o0.628"
+		}
+
+		if_taller
+		{
+			"wide"			"o1.6"
+			"tall"			"f0"
+		}
+		
 	}
 					
 	"TFLogoImage"
